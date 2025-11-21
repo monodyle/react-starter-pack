@@ -1,3 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-foreground: #1a1a1a;
+  --color-background: #f6f5f3;
+}
+
+:root {
+  color-scheme: light dark;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @apply min-h-screen;
+}

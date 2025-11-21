@@ -1,9 +1,7 @@
-function App() {
+export default function App() {
   return (
-    <div className="w-screen h-screen grid place-items-center">
-      <h1 className="text-xl font-medium">Recat Starter Pack 🎒</h1>
+    <div className="grid place-items-center w-screen h-screen">
+      <h1 className="text-xl font-medium">React Starter Pack 🎒</h1>
     </div>
   )
 }
-
-export default App
