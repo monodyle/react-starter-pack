@@ -1,8 +1,10 @@
 {
-  // Auto fix
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.experimental.useTsgo": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
-  }
+    "source.fixAll.oxc": "explicit",
+    "source.organizeImports.oxc": "explicit"
+  },
+  "oxc.typeAware": true,
 }
