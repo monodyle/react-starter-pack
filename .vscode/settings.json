@@ -1,10 +1,10 @@
 {
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.experimental.useTsgo": true,
+  "js/ts.tsdk.path": "./node_modules/typescript/lib",
+  "js/ts.experimental.useTsgo": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.oxc": "explicit",
     "source.organizeImports.oxc": "explicit"
   },
-  "oxc.typeAware": true,
+  "oxc.typeAware": true
 }
